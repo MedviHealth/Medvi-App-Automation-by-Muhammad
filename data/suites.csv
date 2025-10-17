@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Fri Oct 17 17:32:37 GMT 2025","Fri Oct 17 17:32:58 GMT 2025","21359","tests","test_medvi_app","","","","MEDVi Qualification Flow Automation","This test verifies the complete 'Am I Qualified?' flow across all MEDVi form pages."
+"passed","Fri Oct 17 18:48:04 GMT 2025","Fri Oct 17 18:48:20 GMT 2025","16380","tests","test_medvi_app","","","","MEDVi Qualification Flow Automation","This test verifies the complete 'Am I Qualified?' flow across all MEDVi form pages."

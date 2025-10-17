@@ -4,28 +4,10 @@ import allure
 # pyright: ignore[reportMissingImports]
 from utils.base_page import BasePage
 
-<<<<<<< HEAD
 class HeightWeightPage(BasePage):
 
     def __init__(self, page: Page):
         super().__init__(page)
-=======
-
-class HeightWeightPage:
-    """Handles height and weight form interactions in the MEDVi Typeform iframe."""
-
-    IFRAME_SELECTOR = "iframe[title='1tAZd12DZCus']"
-    DEFAULT_TIMEOUT = 10000
-
-    def __init__(self, page: Page):
-        self.page = page
-        self.log = logging.getLogger("GoalWeightPage")      
-    
-    @property
-    def frame(self):
-        """Always return a fresh frame locator to avoid stale references."""
-        return self.page.frame_locator(self.IFRAME_SELECTOR)
->>>>>>> 05e40f9d1bfb7fa324d475e2337bb12ea415a04e
 
     # ----------------------- Helpers -----------------------
 
@@ -49,7 +31,6 @@ class HeightWeightPage:
 
         for attempt in range(1, max_retries + 1):
             try:
-<<<<<<< HEAD
                 # 1) Ensure iframe element is present
                 self.page.wait_for_selector(
                     self.IFRAME_SELECTOR, state="attached", timeout=self.DEFAULT_TIMEOUT
@@ -60,12 +41,6 @@ class HeightWeightPage:
                 feet_input.wait_for(state="visible", timeout=self.DEFAULT_TIMEOUT)
 
                 self.log.info("✅ Iframe loaded and first control visible")
-=======
-                self.page.wait_for_selector(self.IFRAME_SELECTOR, state="attached", timeout=10000)
-                # Just access the property to confirm the iframe is ready
-                _ = self.frame
-                self.log.info("✅ Iframe loaded and form visible!")
->>>>>>> 05e40f9d1bfb7fa324d475e2337bb12ea415a04e
                 return
             except Exception as e:
                 self.log.warning(f"⚠️ Iframe not ready (Attempt {attempt}/{max_retries}): {e}")
@@ -75,7 +50,6 @@ class HeightWeightPage:
                     time.sleep(3)
                 else:
                     raise TimeoutError("❌ Iframe failed to load after multiple retries.") from e
-
 
     # ----------------------- Form Actions -----------------------
 
@@ -96,7 +70,6 @@ class HeightWeightPage:
         question = self.frame.locator("//span[normalize-space(text())='What is your height and weight?']")
         expect(question).to_be_visible(timeout=self.DEFAULT_TIMEOUT)
         self.log.info("✅ 'What is your height and weight?' question displayed successfully")
-
 
     @allure.step("Select feet")
     def select_feet(self, value: str):

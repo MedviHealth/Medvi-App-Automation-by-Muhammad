@@ -8,20 +8,20 @@ INFO     HeightWeightPage:height_weight_page.py:59 🔍 Verifying height and wei
 INFO     HeightWeightPage:height_weight_page.py:64 ✅ Height and weight page heading and image displayed verified successfully
 INFO     HeightWeightPage:height_weight_page.py:69 🔍 Verifying what is your height and weight question displayed...
 INFO     HeightWeightPage:height_weight_page.py:72 ✅ 'What is your height and weight?' question displayed successfully
-INFO     HeightWeightPage:height_weight_page.py:78 ✅ Selected feet: 4
-INFO     HeightWeightPage:height_weight_page.py:84 ✅ Selected inches: 5
+INFO     HeightWeightPage:height_weight_page.py:78 ✅ Selected feet: 5
+INFO     HeightWeightPage:height_weight_page.py:84 ✅ Selected inches: 7
 INFO     HeightWeightPage:height_weight_page.py:90 ✅ Weight entered successfully
 INFO     HeightWeightPage:height_weight_page.py:96 ➡️ Clicked 'Next' button
 INFO     GoalWeightPage:goal_weight_page.py:52 🔍 Verifying goal weight page heading displayed...
 INFO     GoalWeightPage:goal_weight_page.py:63 ✅ Goal weight page headings verified successfully
-INFO     GoalWeightPage:goal_weight_page.py:69 ✅ Goal weight entered successfully: 105
+INFO     GoalWeightPage:goal_weight_page.py:69 ✅ Goal weight entered successfully: 103
 INFO     GoalWeightPage:goal_weight_page.py:88 ➡️ Clicked 'Next' button
 INFO     GenderAndAgePage:gender_age_page.py:33 🔍 Verifying gender and age content is visible...
 INFO     GenderAndAgePage:gender_age_page.py:40 ✅ Gender and age content is visible verified successfully
 INFO     GenderAndAgePage:gender_age_page.py:63 👤 Selecting gender: Male
 INFO     GenderAndAgePage:gender_age_page.py:46 ✅ Selected gender: Male
-INFO     GenderAndAgePage:gender_age_page.py:70 🎂 Selecting age range: 29-39
-INFO     GenderAndAgePage:gender_age_page.py:52 ✅ Selected age range: 29-39
+INFO     GenderAndAgePage:gender_age_page.py:70 🎂 Selecting age range: 18-28
+INFO     GenderAndAgePage:gender_age_page.py:52 ✅ Selected age range: 18-28
 INFO     GenderAndAgePage:gender_age_page.py:58 ➡️ Clicked 'Next' button
 INFO     ExperienceIllnessPage:experience_illness_page.py:33 🔍 Verifying experience illness content is visible...
 INFO     ExperienceIllnessPage:experience_illness_page.py:36 ✅ Experience illness content is visible verified successfully
@@ -30,8 +30,8 @@ INFO     ExperienceIllnessPage:experience_illness_page.py:42 ✅ Successfully se
 INFO     ExperienceIllnessPage:experience_illness_page.py:48 ➡️ Clicked 'Next' button
 INFO     PriorityPage:priority_page.py:52 🔍 Verifying priority content is visible...
 INFO     PriorityPage:priority_page.py:35 ✅ Priority content is visible verified successfully
-INFO     PriorityPage:priority_page.py:57 🎯 Selecting goal: Gain Muscle
-INFO     PriorityPage:priority_page.py:41 ✅ Selected goal: Gain Muscle
+INFO     PriorityPage:priority_page.py:57 🎯 Selecting goal: Maintain My Current Body
+INFO     PriorityPage:priority_page.py:41 ✅ Selected goal: Maintain My Current Body
 INFO     PriorityPage:priority_page.py:47 ➡️ Clicked 'Next' button
 INFO     RankPage:rank_page.py:52 🔍 Verifying rank content is visible...
 INFO     RankPage:rank_page.py:35 ✅ Rank content is visible verified successfully
@@ -55,13 +55,13 @@ INFO     GLP1Page:glp1_page.py:41 ✅ All GLP-1 content verified
 INFO     GLP1Page:glp1_page.py:47 ➡️ Clicked 'Next' button
 INFO     ReasonsPage:reasons_page.py:52 🔍 Verifying reasons heading...
 INFO     ReasonsPage:reasons_page.py:35 ✅ Reasons heading verified successfully
-INFO     ReasonsPage:reasons_page.py:57 🎯 Selecting reason: I want to feel and look better
-INFO     ReasonsPage:reasons_page.py:41 ✅ Reason selected: I want to feel and look better
+INFO     ReasonsPage:reasons_page.py:57 🎯 Selecting reason: I want to live longer
+INFO     ReasonsPage:reasons_page.py:41 ✅ Reason selected: I want to live longer
 INFO     ReasonsPage:reasons_page.py:47 ➡️ Clicked 'Next' button
 INFO     LoseWeightPage:lose_weight_page.py:51 🔍 Verifying lose weight heading...
 INFO     LoseWeightPage:lose_weight_page.py:34 ✅ Lose weight heading visible
-INFO     LoseWeightPage:lose_weight_page.py:58 ⚖️ Selecting lose weight option: That works for me
-INFO     LoseWeightPage:lose_weight_page.py:40 ✅ Selected lose weight option: That works for me
+INFO     LoseWeightPage:lose_weight_page.py:58 ⚖️ Selecting lose weight option: That's too fast
+INFO     LoseWeightPage:lose_weight_page.py:40 ✅ Selected lose weight option: That's too fast
 INFO     LoseWeightPage:lose_weight_page.py:46 ➡️ Clicked 'Next' button
 INFO     AnalyzeMetabolismPage:analyze_metabolism_page.py:46 🔍 Verifying analyze metabolism content...
 INFO     AnalyzeMetabolismPage:analyze_metabolism_page.py:35 ✅ Analyze metabolism content verified successfully
@@ -104,8 +104,8 @@ INFO     TakenMedicationPage:taken_medication_page.py:35 ✅ Successfully select
 INFO     TakenMedicationPage:taken_medication_page.py:41 ➡️ Clicked 'Next' button
 INFO     GLP1MedicinePage:glp1_medicine_page.py:70 💊 Entering name dose frequency:
 INFO     GLP1MedicinePage:glp1_medicine_page.py:35 ✅ Name dose frequency entered successfully
-INFO     GLP1MedicinePage:glp1_medicine_page.py:78 💉 Selecting last dose days: '11-14 days'
-INFO     GLP1MedicinePage:glp1_medicine_page.py:41 ✅ Selected last dose days: '11-14 days'
+INFO     GLP1MedicinePage:glp1_medicine_page.py:78 💉 Selecting last dose days: '6-10 days'
+INFO     GLP1MedicinePage:glp1_medicine_page.py:41 ✅ Selected last dose days: '6-10 days'
 INFO     GLP1MedicinePage:glp1_medicine_page.py:87 💊 Entering starting weight:
 INFO     GLP1MedicinePage:glp1_medicine_page.py:47 ✅ Starting weight entered successfully
 INFO     GLP1MedicinePage:glp1_medicine_page.py:98 📸 Uploading medication photo: /home/runner/work/Medvi-App-Automation-by-Muhammad/Medvi-App-Automation-by-Muhammad/data/shery_1.jpg
@@ -134,15 +134,15 @@ INFO     WeightLossProgramPage:weight_loss_program_page.py:41 ✅ Selected optio
 INFO     WeightLossProgramPage:weight_loss_program_page.py:47 ➡️ Clicked 'Next' button
 INFO     ClinicallyAppropriatePage:clinically_appropriate_page.py:23 💊 Verifying clinically appropriate heading:
 INFO     ClinicallyAppropriatePage:clinically_appropriate_page.py:26 ✅ Clinically appropriate heading verified successfully
-INFO     ClinicallyAppropriatePage:clinically_appropriate_page.py:30 💊 Selecting clinically appropriate option: Increase your physical activity alongside medication
-INFO     ClinicallyAppropriatePage:clinically_appropriate_page.py:35 ✅ Selected clinically appropriate option: Increase your physical activity alongside medication
+INFO     ClinicallyAppropriatePage:clinically_appropriate_page.py:30 💊 Selecting clinically appropriate option: None of the above
+INFO     ClinicallyAppropriatePage:clinically_appropriate_page.py:35 ✅ Selected clinically appropriate option: None of the above
 INFO     ClinicallyAppropriatePage:clinically_appropriate_page.py:43 ➡️ Clicked 'Next' button
 INFO     WeightChangeLastYearPage:weight_change_last_year_page.py:23 💊 Verifying image displayed:
 INFO     WeightChangeLastYearPage:weight_change_last_year_page.py:26 ✅ Image displayed verified successfully
 INFO     WeightChangeLastYearPage:weight_change_last_year_page.py:28 💊 Verifying weight change last year heading:
 INFO     WeightChangeLastYearPage:weight_change_last_year_page.py:31 ✅ Weight change last year heading verified successfully
-INFO     WeightChangeLastYearPage:weight_change_last_year_page.py:35 💊 Selecting weight change last year option: Lost a little
-INFO     WeightChangeLastYearPage:weight_change_last_year_page.py:40 ✅ Selected weight change last year option: Lost a little
+INFO     WeightChangeLastYearPage:weight_change_last_year_page.py:35 💊 Selecting weight change last year option: Gained a little
+INFO     WeightChangeLastYearPage:weight_change_last_year_page.py:40 ✅ Selected weight change last year option: Gained a little
 INFO     WeightChangeLastYearPage:weight_change_last_year_page.py:48 ➡️ Clicked 'Next' button
 INFO     BodyChangingImgPage:body_changing_img_page.py:46 💊 Verifying image displayed:
 INFO     BodyChangingImgPage:body_changing_img_page.py:49 ✅ Image displayed verified successfully
@@ -166,30 +166,33 @@ INFO     AverageRestingHeartRatePage:average_resting_heart_rate_page.py:41 ✅ S
 INFO     AverageRestingHeartRatePage:average_resting_heart_rate_page.py:47 ➡️ Clicked 'Next' button
 INFO     BestMedicineMatchPage:best_medicine_match_page.py:57 🔍 Verifying best medicine match heading...
 INFO     BestMedicineMatchPage:best_medicine_match_page.py:34 ✅ Best medicine match heading verified successfully
-INFO     BestMedicineMatchPage:best_medicine_match_page.py:64 🩺 Selecting best medicine match: 'Affordability'
-INFO     BestMedicineMatchPage:best_medicine_match_page.py:40 ✅ Successfully selected: 'Affordability'
+INFO     BestMedicineMatchPage:best_medicine_match_page.py:64 🩺 Selecting best medicine match: 'Potency'
+INFO     BestMedicineMatchPage:best_medicine_match_page.py:40 ✅ Successfully selected: 'Potency'
 INFO     BestMedicineMatchPage:best_medicine_match_page.py:72 🔍 Verifying GLP-1 tablet or injection heading...
 INFO     BestMedicineMatchPage:best_medicine_match_page.py:77 ✅ GLP-1 tablet or injection heading verified successfully
-INFO     BestMedicineMatchPage:best_medicine_match_page.py:81 💉 Selecting GLP-1 tablet or injection: 'I prefer to inject'
-INFO     BestMedicineMatchPage:best_medicine_match_page.py:46 ✅ Successfully selected: 'I prefer to inject'
+INFO     BestMedicineMatchPage:best_medicine_match_page.py:81 💉 Selecting GLP-1 tablet or injection: 'I prefer a tablet'
+INFO     BestMedicineMatchPage:best_medicine_match_page.py:46 ✅ Successfully selected: 'I prefer a tablet'
 INFO     BestMedicineMatchPage:best_medicine_match_page.py:52 ➡️ Clicked 'Next' button
 INFO     CurrentlyTakingMedicinePage:currently_taking_medicine_page.py:24 🔍 Verifying currently taking medicine heading and image displayed...
 INFO     CurrentlyTakingMedicinePage:currently_taking_medicine_page.py:27 ✅ Currently taking medicine heading verified successfully
 INFO     CurrentlyTakingMedicinePage:currently_taking_medicine_page.py:30 ✅ Currently taking medicine image displayed verified successfully
-INFO     CurrentlyTakingMedicinePage:currently_taking_medicine_page.py:35 💊 Selecting currently taking medicine option: No
-INFO     CurrentlyTakingMedicinePage:currently_taking_medicine_page.py:46 ✅ Selected currently taking medicine option: No
+INFO     CurrentlyTakingMedicinePage:currently_taking_medicine_page.py:35 💊 Selecting currently taking medicine option: Yes
+INFO     CurrentlyTakingMedicinePage:currently_taking_medicine_page.py:44 ✅ Entered medicine name: Shery mecicine tooks
+INFO     CurrentlyTakingMedicinePage:currently_taking_medicine_page.py:46 ✅ Selected currently taking medicine option: Yes
 INFO     CurrentlyTakingMedicinePage:currently_taking_medicine_page.py:54 ➡️ Clicked 'Next' button
 INFO     UnderstandStateOfMindPage:understand_state_of_mind_page.py:35 🔍 Verifying understand state of mind heading...
 INFO     UnderstandStateOfMindPage:understand_state_of_mind_page.py:38 ✅ H1 element is visible on the page
 INFO     UnderstandStateOfMindPage:understand_state_of_mind_page.py:40 ✅ H1 element text content: Let's better understand your current state of mind.
 INFO     UnderstandStateOfMindPage:understand_state_of_mind_page.py:43 ✅ Understand state of mind heading verified successfully
-INFO     UnderstandStateOfMindPage:understand_state_of_mind_page.py:48 💊 Selecting understand state of mind option: I'm feeling hopeful
-INFO     UnderstandStateOfMindPage:understand_state_of_mind_page.py:54 ✅ Selected understand state of mind option: I'm feeling hopeful
+INFO     UnderstandStateOfMindPage:understand_state_of_mind_page.py:48 💊 Selecting understand state of mind option: I'm Ready!
+INFO     UnderstandStateOfMindPage:understand_state_of_mind_page.py:54 ✅ Selected understand state of mind option: I'm Ready!
 INFO     UnderstandStateOfMindPage:understand_state_of_mind_page.py:62 ➡️ Clicked 'Next' button
 INFO     InfoSharedWithMedicalTeamPage:info_shared_with_medical_team_page.py:24 🔍 Verifying info shared with medical team heading displayed...
 INFO     InfoSharedWithMedicalTeamPage:info_shared_with_medical_team_page.py:27 ✅ Info shared with medical team heading displayed verified successfully
-INFO     InfoSharedWithMedicalTeamPage:info_shared_with_medical_team_page.py:32 💊 Selecting currently taking medicine option: No
-INFO     InfoSharedWithMedicalTeamPage:info_shared_with_medical_team_page.py:46 ✅ Selected info shared with medical team option: No
+INFO     InfoSharedWithMedicalTeamPage:info_shared_with_medical_team_page.py:32 💊 Selecting currently taking medicine option: Yes
+INFO     InfoSharedWithMedicalTeamPage:info_shared_with_medical_team_page.py:40 ✅ Provide info text displayed verified successfully
+INFO     InfoSharedWithMedicalTeamPage:info_shared_with_medical_team_page.py:44 ✅ Entered info shared with medical team: hiiiiiii how are you? what you tooks
+INFO     InfoSharedWithMedicalTeamPage:info_shared_with_medical_team_page.py:46 ✅ Selected info shared with medical team option: Yes
 INFO     InfoSharedWithMedicalTeamPage:info_shared_with_medical_team_page.py:54 ➡️ Clicked 'Next' button
 INFO     YourNeedPage:your_need_page.py:34 🔍 Verifying your need heading displayed...
 INFO     YourNeedPage:your_need_page.py:38 ✅ Your need and medicine heading text content: Please select the following options that you are interested in

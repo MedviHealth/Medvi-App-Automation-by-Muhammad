@@ -130,17 +130,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./allure-report
           publish_branch: gh-pages
-
-  cleanup:
-    name: 🧹 Cleanup Old Runs & Artifacts
-    runs-on: ubuntu-latest
-    if: always()
-    schedule:
-      - cron: "0 3 * * *"  # every day at 3 AM UTC
-    steps:
-      - name: 🧼 Delete old workflow runs and artifacts
-        uses: MajorScruffy/delete-old-workflow-runs@v1
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          days_old: 2
-          keep_minimum_runs: 10

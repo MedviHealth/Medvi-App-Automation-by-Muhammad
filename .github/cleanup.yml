@@ -1,0 +1,29 @@
+name: 🧹 Daily Cleanup (Workflows & Artifacts)
+
+on:
+  schedule:
+    - cron: "0 3 * * *"  # Runs every day at 3 AM UTC
+  workflow_dispatch:       # Allow manual trigger if needed
+
+jobs:
+  cleanup:
+    name: 🧽 Delete old workflow runs and artifacts
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+      contents: read
+
+    steps:
+      - name: 🧼 Delete old workflow runs (keep last 10)
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.repository }}
+          retain_days: 2
+          keep_minimum_runs: 10
+
+      - name: 🗑️ Delete old artifacts (older than 2 days)
+        uses: geekyeggo/delete-artifact@v5
+        with:
+          name: '*'
+          age: 2d

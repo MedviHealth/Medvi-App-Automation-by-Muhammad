@@ -88,10 +88,6 @@ ALLURE_REPORTING.md
 .venv/
 __pycache__/
 
-# Ignore Allure test reports and results
-allure-results/
-allure-report/
-
 # Ignore local artifacts
 *.log
 *.zip
@@ -101,3 +97,7 @@ reports/
 screenshots/
 trace.zip
 
+allure-report/
+allure-report/
+allure-report/
+screenshots/

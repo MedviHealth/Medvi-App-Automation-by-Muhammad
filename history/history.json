@@ -1,1 +1,1 @@
-{"cd507f8bbc0e95997e1df64c20cc7a84":{"statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1},"items":[{"uid":"bcce6fddc7c39db3","status":"passed","time":{"start":1761917952903,"stop":1761918004750,"duration":51847}}]}}
+{"cd507f8bbc0e95997e1df64c20cc7a84":{"statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1},"items":[{"uid":"360cd87e4986e6f","status":"passed","time":{"start":1761920477674,"stop":1761920492364,"duration":14690}}]}}

@@ -1,1 +1,1 @@
-[{"uid":"bed225958f4e2d42","name":"MEDVi Qualification Flow Automation","time":{"start":1761945563872,"stop":1761945578822,"duration":14950},"status":"passed","severity":"critical"}]
+[{"uid":"c66c9658675daf2b","name":"MEDVi Qualification Flow Automation","time":{"start":1761949315322,"stop":1761949379336,"duration":64014},"status":"broken","severity":"critical"}]

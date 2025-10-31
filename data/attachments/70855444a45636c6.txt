@@ -1,0 +1,24 @@
+INFO     root:conftest.py:59 ✅ Logging configured.
+INFO     HomePage:home_page.py:34 🌐 Navigating to: https://medvi.org/
+INFO     HomePage:home_page.py:37 ✅ Home page loaded successfully
+INFO     HomePage:home_page.py:47 ✅ Clicked 'AM I QUALIFIED?' button
+INFO     GoalWeightPage:height_weight_page.py:39 🔄 Waiting for iframe to load...
+WARNING  GoalWeightPage:height_weight_page.py:49 ⚠️ Iframe not ready (Attempt 1/5): Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+waiting for locator("iframe[title='1tAZd12DZCus']")
+
+WARNING  GoalWeightPage:height_weight_page.py:49 ⚠️ Iframe not ready (Attempt 2/5): Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+waiting for locator("iframe[title='1tAZd12DZCus']")
+
+WARNING  GoalWeightPage:height_weight_page.py:49 ⚠️ Iframe not ready (Attempt 3/5): Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+waiting for locator("iframe[title='1tAZd12DZCus']")
+
+WARNING  GoalWeightPage:height_weight_page.py:49 ⚠️ Iframe not ready (Attempt 4/5): Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+waiting for locator("iframe[title='1tAZd12DZCus']")
+
+WARNING  GoalWeightPage:height_weight_page.py:49 ⚠️ Iframe not ready (Attempt 5/5): Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+waiting for locator("iframe[title='1tAZd12DZCus']")

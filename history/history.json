@@ -1,1 +1,1 @@
-{"cd507f8bbc0e95997e1df64c20cc7a84":{"statistic":{"failed":0,"broken":1,"skipped":0,"passed":0,"unknown":0,"total":1},"items":[{"uid":"c66c9658675daf2b","status":"broken","statusDetails":"TimeoutError: ❌ Iframe failed to load after multiple retries.","time":{"start":1761949315322,"stop":1761949379336,"duration":64014}}]}}
+{"cd507f8bbc0e95997e1df64c20cc7a84":{"statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1},"items":[{"uid":"a71a595a5562ecd0","status":"passed","time":{"start":1761952840014,"stop":1761952864930,"duration":24916}}]}}

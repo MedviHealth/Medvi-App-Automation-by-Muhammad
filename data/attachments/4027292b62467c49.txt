@@ -1,0 +1,14 @@
+INFO     root:conftest.py:59 ✅ Logging configured.
+INFO     HomePage:home_page.py:34 🌐 Navigating to: https://medvi.org/
+INFO     HomePage:home_page.py:37 ✅ Home page loaded successfully
+WARNING  HomePage:home_page.py:23 🔁 Attempt 1/3 failed: Locator.wait_for: Timeout 15000ms exceeded.
+Call log:
+waiting for get_by_role("link", name="AM I QUALIFIED?") to be visible
+. Retrying in 3s…
+WARNING  HomePage:home_page.py:23 🔁 Attempt 2/3 failed: Locator.wait_for: Timeout 15000ms exceeded.
+Call log:
+waiting for get_by_role("link", name="AM I QUALIFIED?") to be visible
+. Retrying in 3s…
+ERROR    HomePage:home_page.py:26 ❌ All 3 attempts failed: Locator.wait_for: Timeout 15000ms exceeded.
+Call log:
+waiting for get_by_role("link", name="AM I QUALIFIED?") to be visible

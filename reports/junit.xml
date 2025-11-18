@@ -1,41 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="1" time="51.963" timestamp="2025-11-18T14:21:43.839447+00:00" hostname="runnervmg1sw1"><testcase classname="tests.test_medvi_app" name="test_medvi_application_flow" time="51.688"><failure message="playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 15000ms exceeded.&#10;Call log:&#10;waiting for get_by_role(&quot;link&quot;, name=&quot;AM I QUALIFIED?&quot;) to be visible">home_page = &lt;pages.home_page.HomePage object at 0x7f9b0e576190&gt;
-height_weight_page = &lt;pages.height_weight_page.HeightWeightPage object at 0x7f9b0e58e2d0&gt;
-goal_weight = &lt;pages.goal_weight_page.GoalWeightPage object at 0x7f9b0e58e650&gt;
-gender_and_age = &lt;pages.gender_age_page.GenderAndAgePage object at 0x7f9b0e58e9d0&gt;
-experience_illness = &lt;pages.experience_illness_page.ExperienceIllnessPage object at 0x7f9b0e58ed50&gt;
-priority = &lt;pages.priority_page.PriorityPage object at 0x7f9b0e58f0d0&gt;
-rank = &lt;pages.rank_page.RankPage object at 0x7f9b0e58f3d0&gt;
-metabolic_graph = &lt;pages.metabolic_graph_page.MetabolicGraphPage object at 0x7f9b0e58f710&gt;
-gpl = &lt;pages.glp1_page.GLP1Page object at 0x7f9b0e58fa90&gt;
-frank_new_man = &lt;pages.frank_new_man_page.FrankNewManPage object at 0x7f9b0e58fe10&gt;
-reasons = &lt;pages.reasons_page.ReasonsPage object at 0x7f9b0e59c1d0&gt;
-lose_weight = &lt;pages.lose_weight_page.LoseWeightPage object at 0x7f9b0e59c550&gt;
-analyze_metabolism = &lt;pages.analyze_metabolism_page.AnalyzeMetabolismPage object at 0x7f9b0e59c8d0&gt;
-sleep_check = &lt;pages.sleep_check_page.SleepCheckPage object at 0x7f9b0e59cc10&gt;
-sleep_hours = &lt;pages.sleep_hours_page.SleepHoursPage object at 0x7f9b0e59cf50&gt;
-body_review = &lt;pages.body_review_page.BodyReviewPage object at 0x7f9b0e59d290&gt;
-health_conditions = &lt;pages.health_conditions_page.HealthConditionsPage object at 0x7f9b0e59d610&gt;
-additional_health_questions = &lt;pages.additional_health_questions_page.AdditionalHealthQuestionsPage object at 0x7f9b0e59d990&gt;
-taken_medication = &lt;pages.taken_medication_page.TakenMedicationPage object at 0x7f9b0e59dd10&gt;
-glp1_medicine = &lt;pages.glp1_medicine_page.GLP1MedicinePage object at 0x7f9b0e59e090&gt;
-last_three_month_medication = &lt;pages.last_three_month_medication_page.lastThreeMonthMedicationPage object at 0x7f9b0e59e3d0&gt;
-surgery_weight_loss = &lt;pages.surgery_weight_loss_page.SurgeryWeightLossPage object at 0x7f9b0e59e710&gt;
-weight_loss_program = &lt;pages.weight_loss_program_page.WeightLossProgramPage object at 0x7f9b0e59ea90&gt;
-user_data = {'age': '18-28', 'best_medicine_match': 'Affordability', 'clinically_appropriate': 'None of the above', 'currently_taking_medicine': 'Yes', ...}
-clinically_appropriate = &lt;pages.clinically_appropriate_page.ClinicallyAppropriatePage object at 0x7f9b0e59f210&gt;
-weight_change_last_year = &lt;pages.weight_change_last_year_page.WeightChangeLastYearPage object at 0x7f9b0e59f550&gt;
-average_blood_pressure_range = &lt;pages.average_blood_pressure_range_page.AverageBloodPressureRangePage object at 0x7f9b0e59f890&gt;
-body_changing_img = &lt;pages.body_changing_img_page.BodyChangingImgPage object at 0x7f9b0e59fc10&gt;
-average_resting_heart_rate = &lt;pages.average_resting_heart_rate_page.AverageRestingHeartRatePage object at 0x7f9b0e59ff90&gt;
-best_medicine_match = &lt;pages.best_medicine_match_page.BestMedicineMatchPage object at 0x7f9b0e5a4350&gt;
-currently_taking_medicine = &lt;pages.currently_taking_medicine_page.CurrentlyTakingMedicinePage object at 0x7f9b0e5a4650&gt;
-understand_state_of_mind = &lt;pages.understand_state_of_mind_page.UnderstandStateOfMindPage object at 0x7f9b0e5a49d0&gt;
-info_shared_with_medical_team = &lt;pages.info_shared_with_medical_team_page.InfoSharedWithMedicalTeamPage object at 0x7f9b0e5a4d50&gt;
-your_need = &lt;pages.your_need_page.YourNeedPage object at 0x7f9b0e5a50d0&gt;
-date_of_birth = &lt;pages.date_of_birth_page.DateOfBirthPage object at 0x7f9b0e5a5450&gt;
-your_medical_review = &lt;pages.your_medical_review_page.YourMedicalReviewPage object at 0x7f9b0e5a5790&gt;
-check_eligibility = &lt;pages.check_eligibility_page.CheckEligibilityPage object at 0x7f9b0e5a5b10&gt;
-submission_form = &lt;pages.submission_form_page.SubmissionFormPage object at 0x7f9b0e5a5e10&gt;
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="1" time="12.124" timestamp="2025-11-18T15:24:27.535765+00:00" hostname="runnervmg1sw1"><testcase classname="tests.test_medvi_app" name="test_medvi_application_flow" time="12.006"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: &lt;element(s) not found&gt; &#10;Call log:&#10;LocatorAssertions.to_be_visible with timeout 10000ms&#10;  - waiting for locator(&quot;iframe[title='1tAZd12DZCus']&quot;).content_frame.locator(&quot;//span[text()= 'Reach your goal weight fast ']&quot;)">home_page = &lt;pages.home_page.HomePage object at 0x7f2a8ce721d0&gt;
+height_weight_page = &lt;pages.height_weight_page.HeightWeightPage object at 0x7f2a8ce82390&gt;
+goal_weight = &lt;pages.goal_weight_page.GoalWeightPage object at 0x7f2a8ce82710&gt;
+gender_and_age = &lt;pages.gender_age_page.GenderAndAgePage object at 0x7f2a8ce82a90&gt;
+experience_illness = &lt;pages.experience_illness_page.ExperienceIllnessPage object at 0x7f2a8ce82e10&gt;
+priority = &lt;pages.priority_page.PriorityPage object at 0x7f2a8ce83150&gt;
+rank = &lt;pages.rank_page.RankPage object at 0x7f2a8ce83490&gt;
+metabolic_graph = &lt;pages.metabolic_graph_page.MetabolicGraphPage object at 0x7f2a8ce837d0&gt;
+gpl = &lt;pages.glp1_page.GLP1Page object at 0x7f2a8ce83b50&gt;
+frank_new_man = &lt;pages.frank_new_man_page.FrankNewManPage object at 0x7f2a8ce83ed0&gt;
+reasons = &lt;pages.reasons_page.ReasonsPage object at 0x7f2a8ce98250&gt;
+lose_weight = &lt;pages.lose_weight_page.LoseWeightPage object at 0x7f2a8ce985d0&gt;
+analyze_metabolism = &lt;pages.analyze_metabolism_page.AnalyzeMetabolismPage object at 0x7f2a8ce98910&gt;
+sleep_check = &lt;pages.sleep_check_page.SleepCheckPage object at 0x7f2a8ce98c90&gt;
+sleep_hours = &lt;pages.sleep_hours_page.SleepHoursPage object at 0x7f2a8ce99010&gt;
+body_review = &lt;pages.body_review_page.BodyReviewPage object at 0x7f2a8ce99390&gt;
+health_conditions = &lt;pages.health_conditions_page.HealthConditionsPage object at 0x7f2a8ce99710&gt;
+additional_health_questions = &lt;pages.additional_health_questions_page.AdditionalHealthQuestionsPage object at 0x7f2a8ce99a90&gt;
+taken_medication = &lt;pages.taken_medication_page.TakenMedicationPage object at 0x7f2a8ce99e10&gt;
+glp1_medicine = &lt;pages.glp1_medicine_page.GLP1MedicinePage object at 0x7f2a8ce9a190&gt;
+last_three_month_medication = &lt;pages.last_three_month_medication_page.lastThreeMonthMedicationPage object at 0x7f2a8ce9a510&gt;
+surgery_weight_loss = &lt;pages.surgery_weight_loss_page.SurgeryWeightLossPage object at 0x7f2a8ce9a890&gt;
+weight_loss_program = &lt;pages.weight_loss_program_page.WeightLossProgramPage object at 0x7f2a8ce9ac10&gt;
+user_data = {'age': '29-39', 'best_medicine_match': 'Affordability', 'clinically_appropriate': 'None of the above', 'currently_taking_medicine': 'Yes', ...}
+clinically_appropriate = &lt;pages.clinically_appropriate_page.ClinicallyAppropriatePage object at 0x7f2a8ce9b310&gt;
+weight_change_last_year = &lt;pages.weight_change_last_year_page.WeightChangeLastYearPage object at 0x7f2a8ce9b690&gt;
+average_blood_pressure_range = &lt;pages.average_blood_pressure_range_page.AverageBloodPressureRangePage object at 0x7f2a8ce9b9d0&gt;
+body_changing_img = &lt;pages.body_changing_img_page.BodyChangingImgPage object at 0x7f2a8ce9bd50&gt;
+average_resting_heart_rate = &lt;pages.average_resting_heart_rate_page.AverageRestingHeartRatePage object at 0x7f2a8cea00d0&gt;
+best_medicine_match = &lt;pages.best_medicine_match_page.BestMedicineMatchPage object at 0x7f2a8cea0410&gt;
+currently_taking_medicine = &lt;pages.currently_taking_medicine_page.CurrentlyTakingMedicinePage object at 0x7f2a8cea0790&gt;
+understand_state_of_mind = &lt;pages.understand_state_of_mind_page.UnderstandStateOfMindPage object at 0x7f2a8cea0ad0&gt;
+info_shared_with_medical_team = &lt;pages.info_shared_with_medical_team_page.InfoSharedWithMedicalTeamPage object at 0x7f2a8cea0e50&gt;
+your_need = &lt;pages.your_need_page.YourNeedPage object at 0x7f2a8cea1190&gt;
+date_of_birth = &lt;pages.date_of_birth_page.DateOfBirthPage object at 0x7f2a8cea1510&gt;
+your_medical_review = &lt;pages.your_medical_review_page.YourMedicalReviewPage object at 0x7f2a8cea1890&gt;
+check_eligibility = &lt;pages.check_eligibility_page.CheckEligibilityPage object at 0x7f2a8cea1c10&gt;
+submission_form = &lt;pages.submission_form_page.SubmissionFormPage object at 0x7f2a8cea1ed0&gt;
 
     @allure.title("MEDVi Qualification Flow Automation")
     @allure.description("This test verifies the complete 'Am I Qualified?' flow across all MEDVi form pages.")
@@ -90,158 +90,28 @@ submission_form = &lt;pages.submission_form_page.SubmissionFormPage object at 0x
     
         with allure.step("Step 1: Navigate to MEDVi and start qualification flow"):
             home_page.open()
-&gt;           home_page.click_get_started()
+            home_page.click_get_started()
+    
+        with allure.step("Step 2: Fill height and weight details"):
+            height_weight_page.wait_for_iframe_ready()
+&gt;           height_weight_page.verify_height_weight_page_heading_and_image_displayed()
 
-tests/test_medvi_app.py:59: 
+tests/test_medvi_app.py:63: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = &lt;pages.home_page.HomePage object at 0x7f9b0e576190&gt;
+self = &lt;pages.height_weight_page.HeightWeightPage object at 0x7f2a8ce82390&gt;
 
-    @allure.step("Click 'AM I QUALIFIED?' button")
-    def click_get_started(self):
-        """Click the 'AM I QUALIFIED?' link and handle any flakiness."""
-        link = lambda: self.page.get_by_role("link", name="AM I QUALIFIED?")
-    
-        def click_link():
-            link().wait_for(state="visible", timeout=15000)
-            link().click()
-            self.log.info("✅ Clicked 'AM I QUALIFIED?' button")
-    
-        # Retry click a few times (for network or rendering delays)
-&gt;       self._retry_action(click_link, retries=3, delay=3)
+    @allure.step("Verify height and weight page heading and image displayed")
+    def verify_height_weight_page_heading_and_image_displayed(self):
+        """Verify the height and weight page heading and image displayed."""
+        self.log.info("#x1F50D Verifying height and weight page heading and image displayed...")
+        heading = self.frame.locator("//span[text()= 'Reach your goal weight fast ']")
+        image = self.frame.locator("img[src*='11b763525bc6_2.png']")
+&gt;       expect(heading).to_be_visible(timeout=self.DEFAULT_TIMEOUT)
+E       AssertionError: Locator expected to be visible
+E       Actual value: &lt;element(s) not found&gt; 
+E       Call log:
+E       LocatorAssertions.to_be_visible with timeout 10000ms
+E         - waiting for locator("iframe[title='1tAZd12DZCus']").content_frame.locator("//span[text()= 'Reach your goal weight fast ']")
 
-pages/home_page.py:50: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-self = &lt;pages.home_page.HomePage object at 0x7f9b0e576190&gt;
-func = &lt;function HomePage.click_get_started.&lt;locals&gt;.click_link at 0x7f9b10852e80&gt;
-retries = 3, delay = 3
-
-    def _retry_action(self, func, retries=3, delay=3):
-        """Generic retry wrapper for any flaky UI interaction."""
-        for attempt in range(1, retries + 1):
-            try:
-&gt;               return func()
-
-pages/home_page.py:20: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-    def click_link():
-&gt;       link().wait_for(state="visible", timeout=15000)
-
-pages/home_page.py:45: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-self = &lt;Locator frame=&lt;Frame name= url='https://medvi.org/'&gt; selector='internal:role=link[name="AM I QUALIFIED?"i]'&gt;
-
-    def wait_for(
-        self,
-        *,
-        timeout: typing.Optional[float] = None,
-        state: typing.Optional[
-            Literal["attached", "detached", "hidden", "visible"]
-        ] = None
-    ) -&gt; None:
-        """Locator.wait_for
-    
-        Returns when element specified by locator satisfies the `state` option.
-    
-        If target element already satisfies the condition, the method returns immediately. Otherwise, waits for up to
-        `timeout` milliseconds until the condition is met.
-    
-        **Usage**
-    
-        ```py
-        order_sent = page.locator(\"#order-sent\")
-        order_sent.wait_for()
-        ```
-    
-        Parameters
-        ----------
-        timeout : Union[float, None]
-            Maximum time in milliseconds. Defaults to `30000` (30 seconds). Pass `0` to disable timeout. The default value can
-            be changed by using the `browser_context.set_default_timeout()` or `page.set_default_timeout()` methods.
-        state : Union["attached", "detached", "hidden", "visible", None]
-            Defaults to `'visible'`. Can be either:
-            - `'attached'` - wait for element to be present in DOM.
-            - `'detached'` - wait for element to not be present in DOM.
-            - `'visible'` - wait for element to have non-empty bounding box and no `visibility:hidden`. Note that element
-              without any content or with `display:none` has an empty bounding box and is not considered visible.
-            - `'hidden'` - wait for element to be either detached from DOM, or have an empty bounding box or
-              `visibility:hidden`. This is opposite to the `'visible'` option.
-        """
-    
-        return mapping.from_maybe_impl(
-&gt;           self._sync(self._impl_obj.wait_for(timeout=timeout, state=state))
-        )
-
-/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/playwright/sync_api/_generated.py:17736: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-self = &lt;Locator frame=&lt;Frame name= url='https://medvi.org/'&gt; selector='internal:role=link[name="AM I QUALIFIED?"i]'&gt;
-timeout = 15000, state = 'visible'
-
-    async def wait_for(
-        self,
-        timeout: float = None,
-        state: Literal["attached", "detached", "hidden", "visible"] = None,
-    ) -&gt; None:
-&gt;       await self._frame.wait_for_selector(
-            self._selector, strict=True, timeout=timeout, state=state
-        )
-
-/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/playwright/_impl/_locator.py:670: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-self = &lt;Frame name= url='https://medvi.org/'&gt;
-selector = 'internal:role=link[name="AM I QUALIFIED?"i]', strict = True
-timeout = 15000, state = 'visible'
-
-    async def wait_for_selector(
-        self,
-        selector: str,
-        strict: bool = None,
-        timeout: float = None,
-        state: Literal["attached", "detached", "hidden", "visible"] = None,
-    ) -&gt; Optional[ElementHandle]:
-        return from_nullable_channel(
-&gt;           await self._channel.send("waitForSelector", locals_to_params(locals()))
-        )
-
-/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:323: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-self = &lt;playwright._impl._connection.Channel object at 0x7f9b10878850&gt;
-method = 'waitForSelector'
-params = {'selector': 'internal:role=link[name="AM I QUALIFIED?"i]', 'state': 'visible', 'strict': True, 'timeout': 15000}
-
-    async def send(self, method: str, params: Dict = None) -&gt; Any:
-&gt;       return await self._connection.wrap_api_call(
-            lambda: self.inner_send(method, params, False)
-        )
-
-/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:59: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-self = &lt;playwright._impl._connection.Connection object at 0x7f9b1087aad0&gt;
-cb = &lt;function Channel.send.&lt;locals&gt;.&lt;lambda&gt; at 0x7f9b0e5837e0&gt;
-is_internal = False
-
-    async def wrap_api_call(
-        self, cb: Callable[[], Any], is_internal: bool = False
-    ) -&gt; Any:
-        if self._api_zone.get():
-            return await cb()
-        task = asyncio.current_task(self._loop)
-        st: List[inspect.FrameInfo] = getattr(task, "__pw_stack__", inspect.stack())
-        parsed_st = _extract_stack_trace_information_from_stack(st, is_internal)
-        self._api_zone.set(parsed_st)
-        try:
-            return await cb()
-        except Exception as error:
-&gt;           raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
-E           playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 15000ms exceeded.
-E           Call log:
-E           waiting for get_by_role("link", name="AM I QUALIFIED?") to be visible
-
-/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:520: TimeoutError</failure></testcase></testsuite></testsuites>
+pages/height_weight_page.py:65: AssertionError</failure></testcase></testsuite></testsuites>

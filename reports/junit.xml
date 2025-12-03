@@ -1,1 +1,117 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="16.356" timestamp="2025-12-03T20:26:51.338298+00:00" hostname="runnervmoqczp"><testcase classname="tests.test_medvi_app" name="test_medvi_application_flow" time="16.320" /></testsuite></testsuites>
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="1" time="24.920" timestamp="2025-12-03T21:19:52.754667+00:00" hostname="runnervmoqczp"><testcase classname="tests.test_medvi_app" name="test_medvi_application_flow" time="24.808"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: &lt;element(s) not found&gt; &#10;Call log:&#10;LocatorAssertions.to_be_visible with timeout 10000ms&#10;  - waiting for locator(&quot;iframe[title='1tAZd12DZCus']&quot;).content_frame.locator(&quot;//span[text()= 'Reach your goal weight fast ']&quot;)">home_page = &lt;pages.home_page.HomePage object at 0x7f663ad61f50&gt;
+height_weight_page = &lt;pages.height_weight_page.HeightWeightPage object at 0x7f663ad7a0d0&gt;
+goal_weight = &lt;pages.goal_weight_page.GoalWeightPage object at 0x7f663ad7a450&gt;
+gender_and_age = &lt;pages.gender_age_page.GenderAndAgePage object at 0x7f663ad7a790&gt;
+experience_illness = &lt;pages.experience_illness_page.ExperienceIllnessPage object at 0x7f663ad7ab10&gt;
+priority = &lt;pages.priority_page.PriorityPage object at 0x7f663ad7ae50&gt;
+rank = &lt;pages.rank_page.RankPage object at 0x7f663ad7b190&gt;
+metabolic_graph = &lt;pages.metabolic_graph_page.MetabolicGraphPage object at 0x7f663ad7b4d0&gt;
+gpl = &lt;pages.glp1_page.GLP1Page object at 0x7f663ad7b850&gt;
+frank_new_man = &lt;pages.frank_new_man_page.FrankNewManPage object at 0x7f663ad7bbd0&gt;
+reasons = &lt;pages.reasons_page.ReasonsPage object at 0x7f663ad7bf50&gt;
+lose_weight = &lt;pages.lose_weight_page.LoseWeightPage object at 0x7f663ad882d0&gt;
+analyze_metabolism = &lt;pages.analyze_metabolism_page.AnalyzeMetabolismPage object at 0x7f663ad88650&gt;
+sleep_check = &lt;pages.sleep_check_page.SleepCheckPage object at 0x7f663ad889d0&gt;
+sleep_hours = &lt;pages.sleep_hours_page.SleepHoursPage object at 0x7f663ad88d50&gt;
+body_review = &lt;pages.body_review_page.BodyReviewPage object at 0x7f663ad890d0&gt;
+health_conditions = &lt;pages.health_conditions_page.HealthConditionsPage object at 0x7f663ad89450&gt;
+additional_health_questions = &lt;pages.additional_health_questions_page.AdditionalHealthQuestionsPage object at 0x7f663ad897d0&gt;
+taken_medication = &lt;pages.taken_medication_page.TakenMedicationPage object at 0x7f663ad89b50&gt;
+glp1_medicine = &lt;pages.glp1_medicine_page.GLP1MedicinePage object at 0x7f663ad89ed0&gt;
+last_three_month_medication = &lt;pages.last_three_month_medication_page.lastThreeMonthMedicationPage object at 0x7f663ad8a250&gt;
+surgery_weight_loss = &lt;pages.surgery_weight_loss_page.SurgeryWeightLossPage object at 0x7f663ad8a5d0&gt;
+weight_loss_program = &lt;pages.weight_loss_program_page.WeightLossProgramPage object at 0x7f663ad8a950&gt;
+user_data = {'age': '29-39', 'best_medicine_match': 'Potency', 'clinically_appropriate': 'Increase your physical activity alongside medication', 'currently_taking_medicine': 'Yes', ...}
+clinically_appropriate = &lt;pages.clinically_appropriate_page.ClinicallyAppropriatePage object at 0x7f663ad8b090&gt;
+weight_change_last_year = &lt;pages.weight_change_last_year_page.WeightChangeLastYearPage object at 0x7f663ad8b410&gt;
+average_blood_pressure_range = &lt;pages.average_blood_pressure_range_page.AverageBloodPressureRangePage object at 0x7f663ad8b750&gt;
+body_changing_img = &lt;pages.body_changing_img_page.BodyChangingImgPage object at 0x7f663ad8bad0&gt;
+average_resting_heart_rate = &lt;pages.average_resting_heart_rate_page.AverageRestingHeartRatePage object at 0x7f663ad8be10&gt;
+best_medicine_match = &lt;pages.best_medicine_match_page.BestMedicineMatchPage object at 0x7f663ad90190&gt;
+currently_taking_medicine = &lt;pages.currently_taking_medicine_page.CurrentlyTakingMedicinePage object at 0x7f663ad90510&gt;
+understand_state_of_mind = &lt;pages.understand_state_of_mind_page.UnderstandStateOfMindPage object at 0x7f663ad90850&gt;
+info_shared_with_medical_team = &lt;pages.info_shared_with_medical_team_page.InfoSharedWithMedicalTeamPage object at 0x7f663ad90bd0&gt;
+your_need = &lt;pages.your_need_page.YourNeedPage object at 0x7f663ad90f10&gt;
+date_of_birth = &lt;pages.date_of_birth_page.DateOfBirthPage object at 0x7f663ad91290&gt;
+your_medical_review = &lt;pages.your_medical_review_page.YourMedicalReviewPage object at 0x7f663ad91610&gt;
+check_eligibility = &lt;pages.check_eligibility_page.CheckEligibilityPage object at 0x7f663ad91990&gt;
+submission_form = &lt;pages.submission_form_page.SubmissionFormPage object at 0x7f663ad91c90&gt;
+
+    @allure.title("MEDVi Qualification Flow Automation")
+    @allure.description("This test verifies the complete 'Am I Qualified?' flow across all MEDVi form pages.")
+    @allure.severity(allure.severity_level.CRITICAL)
+    @pytest.mark.critical
+    @pytest.mark.ui
+    @pytest.mark.regression
+    def test_medvi_application_flow(
+        home_page,
+        height_weight_page,
+        goal_weight,
+        gender_and_age,
+        experience_illness,
+        priority,
+        rank,
+        metabolic_graph,
+        gpl,
+        frank_new_man,
+        reasons,
+        lose_weight,
+        analyze_metabolism,
+        sleep_check,
+        sleep_hours,
+        body_review,
+        health_conditions,
+        additional_health_questions,
+        taken_medication,
+        glp1_medicine,
+        last_three_month_medication,
+        surgery_weight_loss,
+        weight_loss_program,
+        user_data,
+        clinically_appropriate,
+        weight_change_last_year,
+        average_blood_pressure_range,
+        body_changing_img,
+        average_resting_heart_rate,
+        best_medicine_match,
+        currently_taking_medicine,
+        understand_state_of_mind,
+        info_shared_with_medical_team,
+        your_need,
+        date_of_birth,
+        your_medical_review,
+        check_eligibility,
+        submission_form,
+    ):
+        """Test the complete MEDVi application flow."""
+        allure.dynamic.label("feature", "Qualification Flow")
+        allure.dynamic.label("owner", "QA Automation Team")
+        allure.dynamic.label("epic", "MEDVi Intake Journey")
+    
+        with allure.step("Step 1: Navigate to MEDVi and start qualification flow"):
+            home_page.open()
+            home_page.click_get_started()
+    
+        with allure.step("Step 2: Fill height and weight details"):
+            height_weight_page.wait_for_iframe_ready()
+&gt;           height_weight_page.verify_height_weight_page_heading_and_image_displayed()
+
+tests/test_medvi_app.py:63: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;pages.height_weight_page.HeightWeightPage object at 0x7f663ad7a0d0&gt;
+
+    @allure.step("Verify height and weight page heading and image displayed")
+    def verify_height_weight_page_heading_and_image_displayed(self):
+        """Verify the height and weight page heading and image displayed."""
+        self.log.info("#x1F50D Verifying height and weight page heading and image displayed...")
+        heading = self.frame.locator("//span[text()= 'Reach your goal weight fast ']")
+        image = self.frame.locator("img[src*='11b763525bc6_2.png']")
+&gt;       expect(heading).to_be_visible(timeout=self.DEFAULT_TIMEOUT)
+E       AssertionError: Locator expected to be visible
+E       Actual value: &lt;element(s) not found&gt; 
+E       Call log:
+E       LocatorAssertions.to_be_visible with timeout 10000ms
+E         - waiting for locator("iframe[title='1tAZd12DZCus']").content_frame.locator("//span[text()= 'Reach your goal weight fast ']")
+
+pages/height_weight_page.py:65: AssertionError</failure></testcase></testsuite></testsuites>

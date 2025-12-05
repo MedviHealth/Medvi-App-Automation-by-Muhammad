@@ -1,2 +1,2 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"This test verifies the complete 'Am I Qualified?' flow across all MEDVi form pages.","51209","MEDVi Qualification Flow Automation","tests","Fri Dec 05 15:24:46 UTC 2025","passed","Fri Dec 05 15:25:37 UTC 2025","","test_medvi_app","",""
+"This test verifies the complete 'Am I Qualified?' flow across all MEDVi form pages.","15602","MEDVi Qualification Flow Automation","tests","Fri Dec 05 16:28:56 UTC 2025","passed","Fri Dec 05 16:29:12 UTC 2025","","test_medvi_app","",""

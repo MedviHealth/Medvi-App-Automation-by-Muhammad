@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="1" time="64.105" timestamp="2025-12-11T14:23:53.372832+00:00" hostname="runnervm6qbrg"><testcase classname="tests.test_medvi_app" name="test_medvi_application_flow" time="63.682"><failure message="TimeoutError: ❌ Iframe failed to load after multiple retries.">self = &lt;pages.height_weight_page.HeightWeightPage object at 0x7fcef0782290&gt;
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="1" time="64.114" timestamp="2025-12-11T15:27:39.338975+00:00" hostname="runnervm6qbrg"><testcase classname="tests.test_medvi_app" name="test_medvi_application_flow" time="63.703"><failure message="TimeoutError: ❌ Iframe failed to load after multiple retries.">self = &lt;pages.height_weight_page.HeightWeightPage object at 0x7fa3f2675f90&gt;
 max_retries = 5
 
     @allure.step("Wait for Typeform iframe to load")
@@ -128,7 +128,7 @@ state = 'attached'
 /opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/playwright/_impl/_frame.py:323: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = &lt;playwright._impl._connection.Channel object at 0x7fcef2bc02d0&gt;
+self = &lt;playwright._impl._connection.Channel object at 0x7fa3f2674fd0&gt;
 method = 'waitForSelector'
 params = {'selector': "iframe[title='1tAZd12DZCus']", 'state': 'attached', 'timeout': 10000}
 
@@ -140,8 +140,8 @@ params = {'selector': "iframe[title='1tAZd12DZCus']", 'state': 'attached', 'time
 /opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/playwright/_impl/_connection.py:59: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = &lt;playwright._impl._connection.Connection object at 0x7fcef2a72910&gt;
-cb = &lt;function Channel.send.&lt;locals&gt;.&lt;lambda&gt; at 0x7fcef077fe20&gt;
+self = &lt;playwright._impl._connection.Connection object at 0x7fa3f4962610&gt;
+cb = &lt;function Channel.send.&lt;locals&gt;.&lt;lambda&gt; at 0x7fa3f2519e40&gt;
 is_internal = False
 
     async def wrap_api_call(
@@ -165,44 +165,44 @@ E           waiting for locator("iframe[title='1tAZd12DZCus']")
 
 The above exception was the direct cause of the following exception:
 
-home_page = &lt;pages.home_page.HomePage object at 0x7fcef076cfd0&gt;
-height_weight_page = &lt;pages.height_weight_page.HeightWeightPage object at 0x7fcef0782290&gt;
-goal_weight = &lt;pages.goal_weight_page.GoalWeightPage object at 0x7fcef0782610&gt;
-gender_and_age = &lt;pages.gender_age_page.GenderAndAgePage object at 0x7fcef0782950&gt;
-experience_illness = &lt;pages.experience_illness_page.ExperienceIllnessPage object at 0x7fcef0782cd0&gt;
-priority = &lt;pages.priority_page.PriorityPage object at 0x7fcef0783050&gt;
-rank = &lt;pages.rank_page.RankPage object at 0x7fcef0783350&gt;
-metabolic_graph = &lt;pages.metabolic_graph_page.MetabolicGraphPage object at 0x7fcef0783690&gt;
-gpl = &lt;pages.glp1_page.GLP1Page object at 0x7fcef0783a10&gt;
-frank_new_man = &lt;pages.frank_new_man_page.FrankNewManPage object at 0x7fcef0783d90&gt;
-reasons = &lt;pages.reasons_page.ReasonsPage object at 0x7fcef0794150&gt;
-lose_weight = &lt;pages.lose_weight_page.LoseWeightPage object at 0x7fcef07944d0&gt;
-analyze_metabolism = &lt;pages.analyze_metabolism_page.AnalyzeMetabolismPage object at 0x7fcef0794850&gt;
-sleep_check = &lt;pages.sleep_check_page.SleepCheckPage object at 0x7fcef0794b90&gt;
-sleep_hours = &lt;pages.sleep_hours_page.SleepHoursPage object at 0x7fcef0794f10&gt;
-body_review = &lt;pages.body_review_page.BodyReviewPage object at 0x7fcef0795290&gt;
-health_conditions = &lt;pages.health_conditions_page.HealthConditionsPage object at 0x7fcef0795610&gt;
-additional_health_questions = &lt;pages.additional_health_questions_page.AdditionalHealthQuestionsPage object at 0x7fcef0795990&gt;
-taken_medication = &lt;pages.taken_medication_page.TakenMedicationPage object at 0x7fcef0795cd0&gt;
-glp1_medicine = &lt;pages.glp1_medicine_page.GLP1MedicinePage object at 0x7fcef0796050&gt;
-last_three_month_medication = &lt;pages.last_three_month_medication_page.lastThreeMonthMedicationPage object at 0x7fcef07963d0&gt;
-surgery_weight_loss = &lt;pages.surgery_weight_loss_page.SurgeryWeightLossPage object at 0x7fcef0796750&gt;
-weight_loss_program = &lt;pages.weight_loss_program_page.WeightLossProgramPage object at 0x7fcef0796ad0&gt;
-user_data = {'age': '29-39', 'best_medicine_match': 'Affordability', 'clinically_appropriate': 'Reduce your caloric intake alongside medication', 'currently_taking_medicine': 'No', ...}
-clinically_appropriate = &lt;pages.clinically_appropriate_page.ClinicallyAppropriatePage object at 0x7fcef0797210&gt;
-weight_change_last_year = &lt;pages.weight_change_last_year_page.WeightChangeLastYearPage object at 0x7fcef0797590&gt;
-average_blood_pressure_range = &lt;pages.average_blood_pressure_range_page.AverageBloodPressureRangePage object at 0x7fcef07978d0&gt;
-body_changing_img = &lt;pages.body_changing_img_page.BodyChangingImgPage object at 0x7fcef0797c50&gt;
-average_resting_heart_rate = &lt;pages.average_resting_heart_rate_page.AverageRestingHeartRatePage object at 0x7fcef0797fd0&gt;
-best_medicine_match = &lt;pages.best_medicine_match_page.BestMedicineMatchPage object at 0x7fcef079c390&gt;
-currently_taking_medicine = &lt;pages.currently_taking_medicine_page.CurrentlyTakingMedicinePage object at 0x7fcef079c6d0&gt;
-understand_state_of_mind = &lt;pages.understand_state_of_mind_page.UnderstandStateOfMindPage object at 0x7fcef079ca50&gt;
-info_shared_with_medical_team = &lt;pages.info_shared_with_medical_team_page.InfoSharedWithMedicalTeamPage object at 0x7fcef079cdd0&gt;
-your_need = &lt;pages.your_need_page.YourNeedPage object at 0x7fcef079d110&gt;
-date_of_birth = &lt;pages.date_of_birth_page.DateOfBirthPage object at 0x7fcef079d490&gt;
-your_medical_review = &lt;pages.your_medical_review_page.YourMedicalReviewPage object at 0x7fcef079d7d0&gt;
-check_eligibility = &lt;pages.check_eligibility_page.CheckEligibilityPage object at 0x7fcef079db50&gt;
-submission_form = &lt;pages.submission_form_page.SubmissionFormPage object at 0x7fcef079de90&gt;
+home_page = &lt;pages.home_page.HomePage object at 0x7fa3f265cc90&gt;
+height_weight_page = &lt;pages.height_weight_page.HeightWeightPage object at 0x7fa3f2675f90&gt;
+goal_weight = &lt;pages.goal_weight_page.GoalWeightPage object at 0x7fa3f2676310&gt;
+gender_and_age = &lt;pages.gender_age_page.GenderAndAgePage object at 0x7fa3f2676690&gt;
+experience_illness = &lt;pages.experience_illness_page.ExperienceIllnessPage object at 0x7fa3f2676a10&gt;
+priority = &lt;pages.priority_page.PriorityPage object at 0x7fa3f2676d90&gt;
+rank = &lt;pages.rank_page.RankPage object at 0x7fa3f2677090&gt;
+metabolic_graph = &lt;pages.metabolic_graph_page.MetabolicGraphPage object at 0x7fa3f26773d0&gt;
+gpl = &lt;pages.glp1_page.GLP1Page object at 0x7fa3f2677750&gt;
+frank_new_man = &lt;pages.frank_new_man_page.FrankNewManPage object at 0x7fa3f2677ad0&gt;
+reasons = &lt;pages.reasons_page.ReasonsPage object at 0x7fa3f2677e50&gt;
+lose_weight = &lt;pages.lose_weight_page.LoseWeightPage object at 0x7fa3f26841d0&gt;
+analyze_metabolism = &lt;pages.analyze_metabolism_page.AnalyzeMetabolismPage object at 0x7fa3f2684550&gt;
+sleep_check = &lt;pages.sleep_check_page.SleepCheckPage object at 0x7fa3f2684890&gt;
+sleep_hours = &lt;pages.sleep_hours_page.SleepHoursPage object at 0x7fa3f2684c10&gt;
+body_review = &lt;pages.body_review_page.BodyReviewPage object at 0x7fa3f2684f90&gt;
+health_conditions = &lt;pages.health_conditions_page.HealthConditionsPage object at 0x7fa3f2685310&gt;
+additional_health_questions = &lt;pages.additional_health_questions_page.AdditionalHealthQuestionsPage object at 0x7fa3f2685690&gt;
+taken_medication = &lt;pages.taken_medication_page.TakenMedicationPage object at 0x7fa3f2685a10&gt;
+glp1_medicine = &lt;pages.glp1_medicine_page.GLP1MedicinePage object at 0x7fa3f2685d90&gt;
+last_three_month_medication = &lt;pages.last_three_month_medication_page.lastThreeMonthMedicationPage object at 0x7fa3f2686110&gt;
+surgery_weight_loss = &lt;pages.surgery_weight_loss_page.SurgeryWeightLossPage object at 0x7fa3f2686490&gt;
+weight_loss_program = &lt;pages.weight_loss_program_page.WeightLossProgramPage object at 0x7fa3f26867d0&gt;
+user_data = {'age': '18-28', 'best_medicine_match': 'Affordability', 'clinically_appropriate': 'Reduce your caloric intake alongside medication', 'currently_taking_medicine': 'Yes', ...}
+clinically_appropriate = &lt;pages.clinically_appropriate_page.ClinicallyAppropriatePage object at 0x7fa3f2686f10&gt;
+weight_change_last_year = &lt;pages.weight_change_last_year_page.WeightChangeLastYearPage object at 0x7fa3f2687290&gt;
+average_blood_pressure_range = &lt;pages.average_blood_pressure_range_page.AverageBloodPressureRangePage object at 0x7fa3f2687610&gt;
+body_changing_img = &lt;pages.body_changing_img_page.BodyChangingImgPage object at 0x7fa3f2687990&gt;
+average_resting_heart_rate = &lt;pages.average_resting_heart_rate_page.AverageRestingHeartRatePage object at 0x7fa3f2687cd0&gt;
+best_medicine_match = &lt;pages.best_medicine_match_page.BestMedicineMatchPage object at 0x7fa3f268c050&gt;
+currently_taking_medicine = &lt;pages.currently_taking_medicine_page.CurrentlyTakingMedicinePage object at 0x7fa3f268c3d0&gt;
+understand_state_of_mind = &lt;pages.understand_state_of_mind_page.UnderstandStateOfMindPage object at 0x7fa3f268c750&gt;
+info_shared_with_medical_team = &lt;pages.info_shared_with_medical_team_page.InfoSharedWithMedicalTeamPage object at 0x7fa3f268cad0&gt;
+your_need = &lt;pages.your_need_page.YourNeedPage object at 0x7fa3f268ce50&gt;
+date_of_birth = &lt;pages.date_of_birth_page.DateOfBirthPage object at 0x7fa3f268d1d0&gt;
+your_medical_review = &lt;pages.your_medical_review_page.YourMedicalReviewPage object at 0x7fa3f268d550&gt;
+check_eligibility = &lt;pages.check_eligibility_page.CheckEligibilityPage object at 0x7fa3f268d8d0&gt;
+submission_form = &lt;pages.submission_form_page.SubmissionFormPage object at 0x7fa3f268dc10&gt;
 
     @allure.title("MEDVi Qualification Flow Automation")
     @allure.description("This test verifies the complete 'Am I Qualified?' flow across all MEDVi form pages.")
@@ -265,7 +265,7 @@ submission_form = &lt;pages.submission_form_page.SubmissionFormPage object at 0x
 tests/test_medvi_app.py:62: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = &lt;pages.height_weight_page.HeightWeightPage object at 0x7fcef0782290&gt;
+self = &lt;pages.height_weight_page.HeightWeightPage object at 0x7fa3f2675f90&gt;
 max_retries = 5
 
     @allure.step("Wait for Typeform iframe to load")
